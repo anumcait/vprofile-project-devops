@@ -76,7 +76,7 @@ pipeline {
                 }
             }
         }*/
-       
+       /**/
         stage("UploadArtifact"){
             steps{
                 nexusArtifactUploader(
